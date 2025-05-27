@@ -43,7 +43,7 @@ class fibonacci_webserviceRecipe(ConanFile):
         self.requires("oatpp/1.3.0")
         self.requires("oatpp-swagger/1.3.0")
         self.requires("nlohmann_json/3.12.0")
-        self.requires("fibonacci/1.0.2")
+        self.requires("fibonacci/1.2.4")
 
     def build_requirements(self):
         self.test_requires("gtest/1.14.0")
